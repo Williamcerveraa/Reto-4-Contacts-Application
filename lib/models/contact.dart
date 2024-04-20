@@ -169,12 +169,12 @@ class Contact {
       'examiner.com',
     ),
     Contact(
-      'Mildrid Largan',
-      'Electrical Engineer',
+      'William Cervera',
+      'Developer Engineer',
       '936 Jana Crossing',
       '322-722-6715',
-      'mlarganj@geocities.jp',
-      'hp.com',
+      'williamcervera@hotmail.com',
+      'williamcervera.com',
     ),
   ];
 }

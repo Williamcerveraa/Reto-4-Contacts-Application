@@ -16,7 +16,7 @@ class TemplateGalleryApp extends StatelessWidget {
       theme: ThemeData.dark().copyWith(
         scaffoldBackgroundColor: const Color(0xff23202a),
         appBarTheme: AppBarTheme(
-          color: Colors.deepPurple[400],
+          color: Colors.blueAccent[400],
           centerTitle: true,
           iconTheme: const IconThemeData(
             color: Colors.white70,

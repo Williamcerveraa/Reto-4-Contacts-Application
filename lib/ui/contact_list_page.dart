@@ -38,7 +38,7 @@ class ContactListPageState extends State<ContactListPage> {
             icon: const Icon(Icons.search),
           ),
         ],
-        title: const Text('TEMPLATE GALLERY'),
+        title: const Text('Contacts Application'),
       ),
       body: PerspectiveListView(
         visualizedItems: _visibleItems,
@@ -154,7 +154,7 @@ class ContactListPageState extends State<ContactListPage> {
                           max: MediaQuery.of(context).size.height * .8,
                           label: '$_itemExtent',
                           activeColor: Colors.deepPurple[200],
-                          inactiveColor: Colors.deepPurple[400],
+                          inactiveColor: Colors.blueAccent[400],
                           onChanged: (value) {
                             setState(() {
                               _itemExtent = value;

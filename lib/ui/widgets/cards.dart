@@ -115,7 +115,7 @@ class ContactCard extends StatelessWidget {
                             contact.address,
                             style: const TextStyle(
                               fontSize: 16,
-                              color: Colors.deepPurple,
+                              color: Colors.red,
                             ),
                           )
                         ],
@@ -159,7 +159,7 @@ class ContactCard extends StatelessWidget {
                                     contact.email,
                                     style: const TextStyle(
                                       fontSize: 16,
-                                      color: Colors.deepPurple,
+                                      color: Colors.blue,
                                     ),
                                   ),
                                 ),
@@ -167,7 +167,7 @@ class ContactCard extends StatelessWidget {
                                   contact.website,
                                   style: const TextStyle(
                                     fontSize: 16,
-                                    color: Colors.deepPurple,
+                                    color: Colors.redAccent,
                                   ),
                                 ),
                               ],
